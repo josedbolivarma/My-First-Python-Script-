@@ -1,7 +1,9 @@
-name = 'José'
+nombre = 'José'
 apellido = 'Bolívar'
-resultado = name + ' ' + apellido
+resultado = nombre + ' ' + apellido
+holaMundo = 'Hola Mundo'
 
-print("Hola mi nombre es " + resultado)
+print("Hola, soy " + resultado)
 print('Estoy empezando el curso de python')
 print('Espero aprender mucho')
+print(holaMundo)
