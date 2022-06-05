@@ -1,3 +1,4 @@
+# Declarate and change string
 string = 'Esta es una variable de tipo: '
 
 print(string)
