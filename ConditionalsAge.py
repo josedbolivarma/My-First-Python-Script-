@@ -1,3 +1,5 @@
+# First Exercise
+
 age = 17
 
 if age < 18:
@@ -28,3 +30,13 @@ for number in numbers:
    array.append(number)
    
 print('MY NEW IMPAR ARRAY IS: ',array)
+
+
+# Second Exercise
+# Escribe un programa que sea capaz de mostrar los números del 1 al 100 en orden inverso.
+index = 100
+
+while (index > 0) :
+    print(index)
+    index -= 1
+
