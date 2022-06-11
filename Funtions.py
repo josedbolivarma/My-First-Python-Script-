@@ -19,3 +19,17 @@ def calcularAreaCirculo(radio = 0):
 
 print('CALCULAR EL ÁREA DE UN CIRCULO: ')
 print(calcularAreaCirculo(12))
+
+# EJERCICIO 3
+
+# Escribe una función que pueda decirte si un número (número entero) es primo o no.
+
+def calcularNumeroPrimo(num):
+    for n in range(2, num):
+        if num % n == 0:
+            print('No es primo', n, 'es divisor de', num)
+            return False
+    print('Es primo:', num)
+    return True
+        
+calcularNumeroPrimo(1)
