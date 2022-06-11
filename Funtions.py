@@ -33,3 +33,17 @@ def calcularNumeroPrimo(num):
     return True
         
 calcularNumeroPrimo(1)
+
+
+
+# Escribe una función que pueda decirte si un año (número entero) es bisiesto o no.
+
+def calcularAñoBisiesto(num):
+    if num % 4 == 0:
+        if num % 100 == 0 and num % 400 == 0:
+            print('El Año es Bisiesto')
+            return True
+    print('El Año NO es Bisiesto')
+    return False
+
+calcularAñoBisiesto(2000)
