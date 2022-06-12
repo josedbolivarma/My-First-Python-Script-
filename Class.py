@@ -44,10 +44,18 @@ print(c.color, c.ruedas, c.puertas, c.velocidad, c.cilindrada)
 class Alumno:
     nombre = ''
     nota = 0
+    aprobado = False
     def __init__(self):
         pass
     def cambiarNota(self, point):
         self.nota = point
+
+    def aprobadoMetodo(self):
+        if self.nota >= 10:
+          self.aprobado = True
+        else:
+            self.aprobado = False
+        return self.aprobado
 
     def mostrarNota(self):
         return self.nota
@@ -55,3 +63,4 @@ class Alumno:
 a = Alumno()
 a.cambiarNota(20)
 print(a.mostrarNota())
+print(a.aprobadoMetodo())
